@@ -6,10 +6,10 @@ internal class Program
     {
         Console.WriteLine("Hello");
         //DECLARAR CONSTANTE
-        double sueldobase = 2500000;
-        double bnextra = 100000;
-        double objetivo = 1000000;
-        double PRcomision = 10;
+        const double sueldobase = 2500000;
+      const double bnextra = 100000;
+     const double objetivo = 1000000;
+    const  double PRcomision = 10;
         double VN1, VN2, VN3, EXCELENTE;
 
         Console.Write("Ingresar la primera venta del mes: ");
