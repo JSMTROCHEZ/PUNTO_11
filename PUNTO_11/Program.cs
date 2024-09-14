@@ -6,7 +6,7 @@ internal class Program
     {
         Console.WriteLine("Hello");
         //DECLARAR CONSTANTE
-        const double sueldobase = 2500000;
+        const   double sueldobase = 2500000;
       const double bnextra = 100000;
      const double objetivo = 1000000;
     const  double PRcomision = 10;
