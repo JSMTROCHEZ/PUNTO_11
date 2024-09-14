@@ -4,7 +4,7 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Hello");
         //DECLARAR CONSTANTE
         double sueldobase = 2500000;
         double bnextra = 100000;
@@ -60,7 +60,7 @@ internal class Program
         if (totalVentas >= objetivo)
         {
             TotalMensual += bnextra;
-            Console.WriteLine("¡Felicidades! El vendedor superó el objetivo y ha ganado una bonificación de $100.000.");
+            Console.WriteLine("¡Felicidades! El vendedor superó el objetivo y ha ganado una bonificación de $100000");
         }
         else
         {
